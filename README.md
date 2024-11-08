@@ -34,7 +34,7 @@ This guide explains how to upload and test this Chrome extension in your browser
 
 5. **Test the Extension**:
    
-   - Click the extension icon in the Chrome toolbar, if available, to test its functionality.
+   - Go to any website and click the extension icon in the Chrome toolbar, if available, to test its functionality. Click `Analyze Privacy Policy` button and it will automatically fetch any page containing privacy policy and send it to the backend server and show the output. 
    - If the extension does not appear in the toolbar, you can pin it by clicking the puzzle icon (Extensions) and selecting the pin next to your extension.
 
 6. **Update the Extension** (if you make changes):
