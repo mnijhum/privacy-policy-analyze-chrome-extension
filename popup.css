@@ -1,0 +1,105 @@
+/* Basic styling for the popup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+  width: 600px; /* Widen the popup */
+  height: 400px; /* Make the popup taller */
+  box-sizing: border-box;
+}
+
+.popup-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.popup-title {
+  font-size: 22px; /* Increase title size */
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #0077b6;
+}
+
+.popup-button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Space the button out from the result area */
+}
+
+.popup-button:hover {
+  background-color: #005f8b;
+}
+
+.result-text {
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow-y: auto; /* Allow scroll within the result area */
+  box-sizing: border-box;
+}
+
+#result {
+  white-space: pre-wrap; /* Preserve newlines and whitespace */
+  word-wrap: break-word;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  max-height: 900px;
+  height: 900px;
+  overflow-y: scroll;
+  font-family: Arial, sans-serif;
+}
+
+/* New rating background color classes */
+.rating-high {
+  background-color: #d4edda; /* Light green */
+  color: #155724;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.rating-medium {
+  background-color: #fff3cd; /* Light orange */
+  color: #856404;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.rating-low {
+  background-color: #ffeeba; /* Darker orange */
+  color: #856404;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.rating-very-low {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
