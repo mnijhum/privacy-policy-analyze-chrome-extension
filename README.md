@@ -43,6 +43,9 @@ This guide explains how to upload and test this Chrome extension in your browser
    
    - Alternatively, you can remove the extension and re-upload it if needed.
 
+## Demo
+
+- Find the Demo video of this project at: https://youtu.be/LjPMqBcdvzU
 ## Troubleshooting
 
 - If your extension fails to load, make sure the `manifest.json` file is in the correct format.
